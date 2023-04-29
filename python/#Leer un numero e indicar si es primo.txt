@@ -1,0 +1,13 @@
+#Leer un numero e indicar si es primo
+
+Algoritmo esPrimo
+Escribir 'Ingrese un numero'
+Leer numeroIngresado
+mensaje <- 'El numero es primo'
+mientras num < numeroIngresado hacer
+    Si (numeroIngresado mod num) = 0 ^ num > 1
+        mensaje <- 'El numero no es primo'
+    Fin si 
+fin hacer
+Escribir mensaje
+Fin esPrimo

@@ -1,0 +1,20 @@
+#Leer un numero N y luego leer N numeros. Indicar cual fue el menor
+
+Algoritmo NMenor
+Escribir 'Que cantidad de numeros quiere ingresar?: '
+Leer N
+contador <- 0
+menor <- 0
+mientras contador < N hacer
+    Escribir 'Ingrese un numero: '
+    Leer M
+    si contador = 0
+        menor <- M
+    si no
+        Si M < menor
+            menor <- M
+        fin si
+    fin si
+    Escribir 'El menor numero ingresado fue ',menor
+fin mientras
+fin NMenor

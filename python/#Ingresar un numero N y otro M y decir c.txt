@@ -1,0 +1,17 @@
+#Ingresar un numero N y otro M y decir cual es el mayor
+
+Algoritmo CualMayor
+Escribir 'Ingrese un numero N:'
+Leer N
+Escribir 'Ingrese un numero M:'
+Leer M
+
+Si N=M
+    Escribir 'Los numeros son iguales'
+Si No
+    Si N > M
+        Escribir 'N es mayor'
+    Si No
+        Escribir 'M es mayor'
+    Fin Si
+Fin Si
