@@ -51,16 +51,14 @@ while continuar:
   #/convierto inputs a True o False
 
 
-  # De esta forma sea cual sea el caso se evaluan 2 condiciones.
-
-  if prodX == prodY:  #casos generales
+  if prodX == prodY: 
     if prodX:
       ambos += 1
       cant_X += 1
       cant_Y += 1
     else:
       ninguno += 1
-  else:               #casos especificos
+  else:               
     if prodX:
       cant_X += 1
       solo_X += 1
@@ -68,21 +66,7 @@ while continuar:
       cant_Y += 1
       solo_Y += 1
     
-  #De esta otra forma se evaluan entre 1 y 3 condiciones dependiendo del caso.
 
-  # if prodX and prodY:
-  #   ambos += 1
-  #   cant_X += 1
-  #   cant_Y += 1
-  # elif prodX:
-  #   cant_X += 1
-  #   solo_X += 1
-  # elif prodY:
-  #   cant_Y += 1
-  #   solo_Y += 1
-  # else:
-  #   ninguno += 1
-  
   #Valido input de condición de salida
   input_continuar = input("Desea ingresar la respuesta de otro cliente? (s/n): ")
   while input_continuar != 's' and input_continuar != 'S' and input_continuar != 'n' and input_continuar != 'N':

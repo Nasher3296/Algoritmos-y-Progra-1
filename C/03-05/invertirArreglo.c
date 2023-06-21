@@ -23,3 +23,14 @@ int main()
     }
 
 }
+
+
+
+(anio % 4 == 0 && anio % 100 != 0) || anio % 400 == 0
+
+
+V && F && V || F || V
+F && V || F || V
+F || F || V
+F || V
+V
